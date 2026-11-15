@@ -1,0 +1,5 @@
+[
+  {"id":"DEMO-STAFF-RILEY","username":"riley.demo","first_name":"Riley","last_name":"Demo","role":"Staff","weekdays":[0,1,2,3,4],"start":"09:00","end":"17:00"},
+  {"id":"DEMO-STAFF-JORDAN","username":"jordan.demo","first_name":"Jordan","last_name":"Demo","role":"Staff","weekdays":[0,1,2,3,4],"start":"09:00","end":"17:00"},
+  {"id":"DEMO-STAFF-MORGAN","username":"morgan.demo","first_name":"Morgan","last_name":"Demo","role":"Admin","weekdays":[0,1,2,3,4],"start":"10:00","end":"16:00"}
+]

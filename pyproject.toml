@@ -1,0 +1,19 @@
+[project]
+name = "labassist"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["langgraph>=1.0,<2", "pydantic>=2.10,<3", "streamlit>=1.40,<2", "httpx>=0.28,<1", "python-dotenv>=1,<2", "tzdata>=2025.1", "argon2-cffi>=25.1,<26", "elevenlabs>=2.77,<3", "fastapi>=0.115,<1", "uvicorn>=0.30,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+model = ["openai>=2,<3", "langchain-groq>=1,<2"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["app*", "scripts*"]
+
+[tool.setuptools.package-data]
+"app.ui" = ["live_voice_frontend/dist/*", "live_voice_frontend/dist/assets/*"]

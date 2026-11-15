@@ -1,0 +1,1 @@
+"""LabAssist course demo."""

@@ -1,0 +1,11 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+data/
+.uv-cache/
+*.egg-info/
+# Local secrets written by `elevenlabs onboard`
+/.env
+node_modules/
+.tools/
